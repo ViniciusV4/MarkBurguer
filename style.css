@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+img {
+    width: 100%;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-buy {
+    border-radius: 30px;
+    font-weight: 500;
+    border: 1px solid rgb(160, 14, 14);
+    color: rgb(160, 14, 14) !important;
+    margin-left: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fff !important;
+}
+
+.nav-buy:hover {
+    color: white !important;
+    background-color: rgb(160, 14, 14);
+}
+
+.restaurant-name span{
+    color: red !important;
+}
+
+.restaurant-name  {
+    margin-top: 4rem;
+}
+
+.menu-btn {
+    border-radius: 20px;
+    font-weight: 500;
+    border: 1px solid rgb(160, 14, 14) !important;
+    color: rgb(160, 14, 14) !important;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+}
+
+.cars-container  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.cars-container .box {
+    flex: 1 1 17rem;
+    position: relative;
+    height: 200px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.cars-container .box img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.cars-container .box img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.about-us-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: 50px 200px;
+}
+
+.sobre-nos {
+    display: flex;
+    background-color: rgba(124, 127, 129, 0.082);
+   
+}
+
+.sobre-nos img {
+    width: 75%;
+    height: 90vh;
+    margin-bottom: 50px;
+}
+
+
+.sobre-nos .itens {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    transform: translateX(100px);
+    height: 370px;
+    width: 350px;
+    margin-top: 200px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.menu_wrapper {
+    width: 100%;
+    height: auto;
+    background-image: url(images/food-menu-banner.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: #1c1819;
+}
+
+.menu_wrapper .row {
+    padding-top: 200px;
+}
+
+.menu_wrapper .card {
+    background-color: #333333;
+}
+
+.menu_wrapper .card h3,
+.menu_wrapper .card p {
+    color: #fff;
+}
+
+.menu_wrapper .card h3 span {
+    background-color: rgb(201, 20, 20);
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    line-height: 70px;
+    font-size: 40px;
+    border-radius: 50%;
+}
+
+.main-btn {
+    border-radius: 20px;
+    font-weight: 500;
+    border: 1px solid rgb(160, 14, 14) !important;
+    color: rgb(202, 11, 11) !important;
+    text-align: center;
+    width: 150px;
+    padding: 10px 10px;   
+}
+
+.main-btn:hover {
+    color: white !important;
+    background-color: rgb(160, 14, 14);
+}
+
+.offers_wrapper {
+    margin-top: 200px;
+}
+
+.offers_wrapper .card {
+    height: 100%;
+    min-height: 260px;
+    box-shadow: 0 016px 4px #1c1819;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.offers_wrapper .card .offer-text {
+    width: 50%;
+    height: 100%;
+    background-color: #000000ad;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review_wrapper {
+    width: 100%;
+    height: auto;
+    background-image: url(images/review-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.review_wrapper .carousel-item {
+    min-height: 500px;
+    height: 100%;
+}
+
+.review_wrapper .carousel-item img {
+    width: 65px;
+    margin-bottom: 20px;
+}
+
+.review_wrapper .carousel-control-prev-icon,
+.review_wrapper .carousel-control-next-icon {
+    filter: brightness(0.10);
+}
+
+.review_wrapper .carousel-caption {
+    bottom: 0;
+}
+
+.review_wrapper .carousel-item {
+    min-height: 460px;
+}
+
+.footer_wrapper {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.footer_wrapper .footer-logo img {
+    width: 20%;
+}
+
+
+.footer_wrapper .social-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_wrapper .social-icon li {
+    margin: 6px;
+
+}
+
+.footer_wrapper .social-icon a {
+   width: 35px;
+   height: 35px;
+   line-height: 30px;
+   font-size: 20px;
+   display: inline-block;
+   border: 2px solid #111111;
+   color:#111111;
+   text-align: center;
+   border-radius: 100%;
+   -webkit-transition:all 0.3s cubic-bezier(0.645, 0.045, 0.335, 1);
+   transition:all 0.3s cubic-bezier(0.645, 0.045, 0.335, 1);
+    
+}
+
+.footer_wrapper .social-icon a:hover {
+    color: rgb(160, 14, 14);
+    border-color: rgb(160, 14, 14);
+    color: #ff0808;
+    box-shadow: 010px 15px rgb(0 0 0 / 10%);
+}
+
+.footer_wrapper .copyright-text p {
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.footer_wrapper .copyright-text a {
+    color: #ff0808;
+}
+
+@media (max-width: 727px) {
+    .sobre-nos img {
+        display: none;
+    }
+
+    .sobre-nos .itens {
+        margin-bottom: 20px;
+        transform: translateX(0px);
+    }
+
+
+}
+
+
+
+
+
